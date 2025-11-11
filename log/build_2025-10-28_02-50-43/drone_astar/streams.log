@@ -1,0 +1,24 @@
+[1.880s] Invoking command in '/home/tuanhungjr/ros2_ws/src/drone_astar': PYTHONPATH=/home/tuanhungjr/ros2_ws/src/build/drone_astar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tuanhungjr/ros2_ws/src/install/drone_astar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/drone_astar build --build-base /home/tuanhungjr/ros2_ws/src/build/drone_astar/build install --record /home/tuanhungjr/ros2_ws/src/build/drone_astar/install.log --single-version-externally-managed install_data
+[2.221s] running egg_info
+[2.221s] writing ../build/drone_astar/drone_astar.egg-info/PKG-INFO
+[2.222s] writing dependency_links to ../build/drone_astar/drone_astar.egg-info/dependency_links.txt
+[2.222s] writing entry points to ../build/drone_astar/drone_astar.egg-info/entry_points.txt
+[2.223s] writing requirements to ../build/drone_astar/drone_astar.egg-info/requires.txt
+[2.223s] writing top-level names to ../build/drone_astar/drone_astar.egg-info/top_level.txt
+[2.227s] reading manifest file '../build/drone_astar/drone_astar.egg-info/SOURCES.txt'
+[2.229s] writing manifest file '../build/drone_astar/drone_astar.egg-info/SOURCES.txt'
+[2.229s] running build
+[2.229s] running build_py
+[2.229s] copying drone_astar/drone_astar_node.py -> /home/tuanhungjr/ros2_ws/src/build/drone_astar/build/lib/drone_astar
+[2.230s] running install
+[2.230s] running install_lib
+[2.232s] copying /home/tuanhungjr/ros2_ws/src/build/drone_astar/build/lib/drone_astar/drone_astar_node.py -> /home/tuanhungjr/ros2_ws/src/install/drone_astar/lib/python3.10/site-packages/drone_astar
+[2.233s] byte-compiling /home/tuanhungjr/ros2_ws/src/install/drone_astar/lib/python3.10/site-packages/drone_astar/drone_astar_node.py to drone_astar_node.cpython-310.pyc
+[2.236s] running install_data
+[2.236s] running install_egg_info
+[2.240s] removing '/home/tuanhungjr/ros2_ws/src/install/drone_astar/lib/python3.10/site-packages/drone_astar-0.0.1-py3.10.egg-info' (and everything under it)
+[2.240s] Copying ../build/drone_astar/drone_astar.egg-info to /home/tuanhungjr/ros2_ws/src/install/drone_astar/lib/python3.10/site-packages/drone_astar-0.0.1-py3.10.egg-info
+[2.242s] running install_scripts
+[2.271s] Installing drone_astar_node script to /home/tuanhungjr/ros2_ws/src/install/drone_astar/lib/drone_astar
+[2.272s] writing list of installed files to '/home/tuanhungjr/ros2_ws/src/build/drone_astar/install.log'
+[2.351s] Invoked command in '/home/tuanhungjr/ros2_ws/src/drone_astar' returned '0': PYTHONPATH=/home/tuanhungjr/ros2_ws/src/build/drone_astar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tuanhungjr/ros2_ws/src/install/drone_astar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/drone_astar build --build-base /home/tuanhungjr/ros2_ws/src/build/drone_astar/build install --record /home/tuanhungjr/ros2_ws/src/build/drone_astar/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+drone_astar_node = drone_astar.drone_astar_node:main
+

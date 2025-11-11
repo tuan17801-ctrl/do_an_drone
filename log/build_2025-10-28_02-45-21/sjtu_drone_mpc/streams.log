@@ -1,0 +1,36 @@
+[2.283s] Invoking command in '/home/tuanhungjr/ros2_ws/src/sjtu_drone_mpc': PYTHONPATH=/home/tuanhungjr/ros2_ws/src/build/sjtu_drone_mpc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sjtu_drone_mpc build --build-base /home/tuanhungjr/ros2_ws/src/build/sjtu_drone_mpc/build install --record /home/tuanhungjr/ros2_ws/src/build/sjtu_drone_mpc/install.log --single-version-externally-managed install_data
+[2.675s] running egg_info
+[2.676s] creating ../build/sjtu_drone_mpc/sjtu_drone_mpc.egg-info
+[2.677s] writing ../build/sjtu_drone_mpc/sjtu_drone_mpc.egg-info/PKG-INFO
+[2.678s] writing dependency_links to ../build/sjtu_drone_mpc/sjtu_drone_mpc.egg-info/dependency_links.txt
+[2.678s] writing entry points to ../build/sjtu_drone_mpc/sjtu_drone_mpc.egg-info/entry_points.txt
+[2.678s] writing requirements to ../build/sjtu_drone_mpc/sjtu_drone_mpc.egg-info/requires.txt
+[2.679s] writing top-level names to ../build/sjtu_drone_mpc/sjtu_drone_mpc.egg-info/top_level.txt
+[2.679s] writing manifest file '../build/sjtu_drone_mpc/sjtu_drone_mpc.egg-info/SOURCES.txt'
+[2.682s] reading manifest file '../build/sjtu_drone_mpc/sjtu_drone_mpc.egg-info/SOURCES.txt'
+[2.683s] writing manifest file '../build/sjtu_drone_mpc/sjtu_drone_mpc.egg-info/SOURCES.txt'
+[2.683s] running build
+[2.684s] running build_py
+[2.684s] creating /home/tuanhungjr/ros2_ws/src/build/sjtu_drone_mpc/build
+[2.685s] creating /home/tuanhungjr/ros2_ws/src/build/sjtu_drone_mpc/build/lib
+[2.686s] creating /home/tuanhungjr/ros2_ws/src/build/sjtu_drone_mpc/build/lib/sjtu_drone_mpc
+[2.687s] copying sjtu_drone_mpc/drone_mpc_node.py -> /home/tuanhungjr/ros2_ws/src/build/sjtu_drone_mpc/build/lib/sjtu_drone_mpc
+[2.687s] copying sjtu_drone_mpc/__init__.py -> /home/tuanhungjr/ros2_ws/src/build/sjtu_drone_mpc/build/lib/sjtu_drone_mpc
+[2.688s] running install
+[2.689s] running install_lib
+[2.691s] creating /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc/lib/python3.10/site-packages/sjtu_drone_mpc
+[2.692s] copying /home/tuanhungjr/ros2_ws/src/build/sjtu_drone_mpc/build/lib/sjtu_drone_mpc/drone_mpc_node.py -> /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc/lib/python3.10/site-packages/sjtu_drone_mpc
+[2.692s] copying /home/tuanhungjr/ros2_ws/src/build/sjtu_drone_mpc/build/lib/sjtu_drone_mpc/__init__.py -> /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc/lib/python3.10/site-packages/sjtu_drone_mpc
+[2.693s] byte-compiling /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc/lib/python3.10/site-packages/sjtu_drone_mpc/drone_mpc_node.py to drone_mpc_node.cpython-310.pyc
+[2.695s] byte-compiling /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc/lib/python3.10/site-packages/sjtu_drone_mpc/__init__.py to __init__.cpython-310.pyc
+[2.696s] running install_data
+[2.696s] creating /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc/share/ament_index
+[2.698s] creating /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc/share/ament_index/resource_index
+[2.699s] creating /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc/share/ament_index/resource_index/packages
+[2.699s] copying resource/sjtu_drone_mpc -> /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc/share/ament_index/resource_index/packages
+[2.699s] copying package.xml -> /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc/share/sjtu_drone_mpc
+[2.699s] running install_egg_info
+[2.703s] Copying ../build/sjtu_drone_mpc/sjtu_drone_mpc.egg-info to /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc/lib/python3.10/site-packages/sjtu_drone_mpc-0.0.0-py3.10.egg-info
+[2.708s] running install_scripts
+[2.744s] writing list of installed files to '/home/tuanhungjr/ros2_ws/src/build/sjtu_drone_mpc/install.log'
+[2.822s] Invoked command in '/home/tuanhungjr/ros2_ws/src/sjtu_drone_mpc' returned '0': PYTHONPATH=/home/tuanhungjr/ros2_ws/src/build/sjtu_drone_mpc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sjtu_drone_mpc build --build-base /home/tuanhungjr/ros2_ws/src/build/sjtu_drone_mpc/build install --record /home/tuanhungjr/ros2_ws/src/build/sjtu_drone_mpc/install.log --single-version-externally-managed install_data

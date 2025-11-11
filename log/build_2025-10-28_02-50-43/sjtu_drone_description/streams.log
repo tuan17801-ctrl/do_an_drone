@@ -1,0 +1,62 @@
+[0.925s] Invoking command in '/home/tuanhungjr/ros2_ws/src/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc:/home/tuanhungjr/ros2_ws/src/install/sjtu_drone_control:/home/tuanhungjr/ros2_ws/src/install/sjtu_drone_bringup:/home/tuanhungjr/ros2_ws/src/install/drone_astar:/home/tuanhungjr/ros2_ws/install/sjtu_drone_mpc:/home/tuanhungjr/ros2_ws/install/sjtu_drone_control:/home/tuanhungjr/ros2_ws/install/sjtu_drone_bringup:/home/tuanhungjr/ros2_ws/install/drone_astar:/home/tuanhungjr/install/sjtu_drone_mpc:/home/tuanhungjr/install/sjtu_drone_control:/home/tuanhungjr/install/sjtu_drone_bringup:/home/tuanhungjr/install/drone_astar:/opt/ros/humble /usr/bin/cmake --build /home/tuanhungjr/ros2_ws/src/build/sjtu_drone_description -- -j16 -l16
+[1.021s] [35m[1mConsolidate compiler generated dependencies of target plugin_drone[0m
+[1.120s] [100%] Built target plugin_drone
+[1.228s] Invoked command in '/home/tuanhungjr/ros2_ws/src/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc:/home/tuanhungjr/ros2_ws/src/install/sjtu_drone_control:/home/tuanhungjr/ros2_ws/src/install/sjtu_drone_bringup:/home/tuanhungjr/ros2_ws/src/install/drone_astar:/home/tuanhungjr/ros2_ws/install/sjtu_drone_mpc:/home/tuanhungjr/ros2_ws/install/sjtu_drone_control:/home/tuanhungjr/ros2_ws/install/sjtu_drone_bringup:/home/tuanhungjr/ros2_ws/install/drone_astar:/home/tuanhungjr/install/sjtu_drone_mpc:/home/tuanhungjr/install/sjtu_drone_control:/home/tuanhungjr/install/sjtu_drone_bringup:/home/tuanhungjr/install/drone_astar:/opt/ros/humble /usr/bin/cmake --build /home/tuanhungjr/ros2_ws/src/build/sjtu_drone_description -- -j16 -l16
+[1.246s] Invoking command in '/home/tuanhungjr/ros2_ws/src/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc:/home/tuanhungjr/ros2_ws/src/install/sjtu_drone_control:/home/tuanhungjr/ros2_ws/src/install/sjtu_drone_bringup:/home/tuanhungjr/ros2_ws/src/install/drone_astar:/home/tuanhungjr/ros2_ws/install/sjtu_drone_mpc:/home/tuanhungjr/ros2_ws/install/sjtu_drone_control:/home/tuanhungjr/ros2_ws/install/sjtu_drone_bringup:/home/tuanhungjr/ros2_ws/install/drone_astar:/home/tuanhungjr/install/sjtu_drone_mpc:/home/tuanhungjr/install/sjtu_drone_control:/home/tuanhungjr/install/sjtu_drone_bringup:/home/tuanhungjr/install/drone_astar:/opt/ros/humble /usr/bin/cmake --install /home/tuanhungjr/ros2_ws/src/build/sjtu_drone_description
+[1.259s] -- Install configuration: ""
+[1.260s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/include
+[1.260s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/include/sjtu_drone_description
+[1.260s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/include/sjtu_drone_description/pid_controller.h
+[1.260s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/include/sjtu_drone_description/plugin_drone_private.h
+[1.261s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/include/sjtu_drone_description/plugin_drone.h
+[1.261s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/lib/libplugin_drone.so
+[1.261s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.sh
+[1.262s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.dsv
+[1.262s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models
+[1.263s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/database.config
+[1.263s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/typhoon_h480
+[1.263s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/typhoon_h480/model.config
+[1.263s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/typhoon_h480/typhoon_h480.sdf.jinja
+[1.264s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/typhoon_h480/meshes
+[1.264s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/typhoon_h480/meshes/prop_guard_jybhz.stl
+[1.264s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/typhoon_h480/meshes/cgo3_mount_remeshed_v1.stl
+[1.264s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/typhoon_h480/meshes/cgo3_vertical_arm_remeshed_v1.stl
+[1.265s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/typhoon_h480/meshes/prop_ccw_assembly_remeshed_v3.stl
+[1.265s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/typhoon_h480/meshes/leg1_remeshed_v3.stl
+[1.265s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/typhoon_h480/meshes/cgo3_camera_remeshed_v1.stl
+[1.265s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/typhoon_h480/meshes/prop_cw_assembly_remeshed_v3.stl
+[1.265s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/typhoon_h480/meshes/main_body_remeshed_v3.stl
+[1.265s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/typhoon_h480/meshes/cgo3_horizontal_arm_remeshed_v1.stl
+[1.265s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/typhoon_h480/meshes/leg2_remeshed_v3.stl
+[1.265s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone
+[1.265s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.dae
+[1.265s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.stl
+[1.265s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/sjtu_drone.sdf
+[1.266s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/model.config
+[1.266s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/models/typhoon_h480.sdf
+[1.266s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/urdf
+[1.266s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf.xacro
+[1.266s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf
+[1.266s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/worlds
+[1.266s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/worlds/playground.world
+[1.266s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/ament_index/resource_index/package_run_dependencies/sjtu_drone_description
+[1.266s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/ament_index/resource_index/parent_prefix_path/sjtu_drone_description
+[1.266s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.sh
+[1.266s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.dsv
+[1.266s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.sh
+[1.266s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.dsv
+[1.267s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.bash
+[1.267s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.sh
+[1.267s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.zsh
+[1.267s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.dsv
+[1.267s] -- Installing: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv
+[1.267s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/ament_index/resource_index/packages/sjtu_drone_description
+[1.267s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport.cmake
+[1.267s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport-noconfig.cmake
+[1.267s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.267s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_libraries-extras.cmake
+[1.267s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_targets-extras.cmake
+[1.267s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig.cmake
+[1.267s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig-version.cmake
+[1.267s] -- Up-to-date: /home/tuanhungjr/ros2_ws/src/install/sjtu_drone_description/share/sjtu_drone_description/package.xml
+[1.271s] Invoked command in '/home/tuanhungjr/ros2_ws/src/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuanhungjr/ros2_ws/src/install/sjtu_drone_mpc:/home/tuanhungjr/ros2_ws/src/install/sjtu_drone_control:/home/tuanhungjr/ros2_ws/src/install/sjtu_drone_bringup:/home/tuanhungjr/ros2_ws/src/install/drone_astar:/home/tuanhungjr/ros2_ws/install/sjtu_drone_mpc:/home/tuanhungjr/ros2_ws/install/sjtu_drone_control:/home/tuanhungjr/ros2_ws/install/sjtu_drone_bringup:/home/tuanhungjr/ros2_ws/install/drone_astar:/home/tuanhungjr/install/sjtu_drone_mpc:/home/tuanhungjr/install/sjtu_drone_control:/home/tuanhungjr/install/sjtu_drone_bringup:/home/tuanhungjr/install/drone_astar:/opt/ros/humble /usr/bin/cmake --install /home/tuanhungjr/ros2_ws/src/build/sjtu_drone_description

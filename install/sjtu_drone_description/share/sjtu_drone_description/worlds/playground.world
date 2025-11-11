@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <world name="delivery_drone_world">
+
+    <!-- Plugin ROS để spawn mô hình từ ROS -->
+    <plugin name="gazebo_ros_factory" filename="libgazebo_ros_factory.so"/>
+
+    <!-- Ánh sáng mặt trời -->
+    <light name="sun" type="directional">
+      <cast_shadows>1</cast_shadows>
+      <pose>0 0 10 0 -0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <!-- Mặt đất -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Một số cây -->
+    <include>
+      <uri>model://tree</uri>
+      <pose>5 10 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://tree</uri>
+      <pose>-8 6 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://tree</uri>
+      <pose>12 -5 0 0 0 0</pose>
+    </include>
+
+    <!-- Một ngôi nhà -->
+    <include>
+      <uri>model://house_1</uri>
+      <pose>0 -10 0 0 0 1.57</pose>
+    </include>
+
+    <!-- Một nhà kho (warehouse) -->
+    <include>
+      <uri>model://warehouse</uri>
+      <pose>15 5 0 0 0 0</pose>
+    </include>
+
+    <!-- Một số xe ô tô -->
+    <include>
+      <uri>model://pioneer2dx</uri>
+      <pose>2 2 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://pioneer2dx</uri>
+      <pose>-4 -3 0 0 0 1.57</pose>
+    </include>
+
+    <!-- Bệ cất hạ cánh cho drone -->
+    <model name="landing_pad">
+      <static>true</static>
+      <pose>0 0 0 0 0 0</pose>
+      <link name="pad">
+        <collision name="collision">
+          <geometry>
+            <cylinder>
+              <radius>1.5</radius>
+              <length>0.1</length>
+            </cylinder>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <cylinder>
+              <radius>1.5</radius>
+              <length>0.1</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.9 0.9 0.1 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Mô phỏng gió nhẹ -->
+    <physics name="default_physics" type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <gui fullscreen="0">
+      <camera name="user_camera">
+        <pose>10 -10 10 0.6 0.3 0.8</pose>
+        <view_controller>orbit</view_controller>
+      </camera>
+    </gui>
+
+  </world>
+</sdf>
